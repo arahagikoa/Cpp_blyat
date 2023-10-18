@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/kmlkr/OneDrive/Pulpit/cpp/Cpp_blyat/temp_od_K",
-      "program": "c:/Users/kmlkr/OneDrive/Pulpit/cpp/Cpp_blyat/temp_od_K/build/Debug/outDebug",
+      "cwd": "c:/Users/kmlkr/OneDrive/Pulpit/cpp/Cpp_blyat/lab_2",
+      "program": "c:/Users/kmlkr/OneDrive/Pulpit/cpp/Cpp_blyat/lab_2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
