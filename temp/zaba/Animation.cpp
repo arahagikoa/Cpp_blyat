@@ -68,3 +68,4 @@ void Animation::drawLine(int col, std::string str){
     std::cout<<std::endl;
 }
 Animation::~Animation() {}
+/* Restart-AzureRmWebApp -ResourceGroupName Veriti_AI-1 -Name Niggeria-ai */

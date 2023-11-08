@@ -19,10 +19,10 @@ int main(){
     zaba klasa;
     plik.open(nazwa);
     string line;
-    do{
+    while(std::getline(plik, line)){
         getline(plik, line);
         klasa.toad.push_back(line);
-    }while(line != "");
+    }
     plik.close();
     
     int abc = 0;
