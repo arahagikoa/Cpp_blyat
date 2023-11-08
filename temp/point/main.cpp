@@ -10,7 +10,7 @@ int main(){
     std::cout<<"Wprowadź współrzędnie trzeciego punktu x, y:"<<std::endl;
     std::cin>>x3>>y3;
     if (x1 == x2 || x1 == x3 || x2 == x3) {
-        std::cout << "Error: Two or more points have the same x-coordinate. Please enter distinct x-coordinates." << std::endl;
+        std::cout << "Error: Dwa albo więcej punktów mają takie same współrzędnie x. Wpisz różne wartości x." << std::endl;
         return 1; 
     }
 
