@@ -26,19 +26,17 @@ float point::calculate_y(parabola A){
     return y;
 }
 
-/*float point::calculate_y_ax_b(point A, point B){
-    float a,b;
+float point::calculate_y_ax_b(point A, parabola B){
+    float a = B.getA();
+    float b = B.getB();
     float x1 = A.get_x();
     float y1 = A.get_y();
-    float x2 = B.get_x();
-    float y2 = B.get_y();
-
-}*/
+    float m = 2 * a * x1 + b;
+    std::cout << "Równanie stycznej w punkcie (" << x1 << ", " << y1 << "): y = " << m << " * (x - " << x1 << ") + " << y1 << std::endl;
+    return m;
+}
 
 parabola::parabola(float A=1, float B=1, float C=1){
-    a=A;
-    b=B;
-    c=C;
     counterp++;
 }
 

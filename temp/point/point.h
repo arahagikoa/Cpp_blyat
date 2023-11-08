@@ -21,7 +21,7 @@ class point{
     }
     void print_info();
     float calculate_y(parabola A);
-    //float calculate_y_ax_b(point A, point B);
+    float calculate_y_ax_b(point A, parabola B);
     void _counter();
     friend class parabola;
 };

@@ -28,8 +28,10 @@ int main(){
     point_odc->setY(point_odc->calculate_y(parbl1));
     point_odc->print_info();
     
+    point_odc->calculate_y_ax_b(*point_odc, parbl1);
     
     delete Point3;
     delete Point2;
     delete Point1;
+    delete point_odc;
 }
