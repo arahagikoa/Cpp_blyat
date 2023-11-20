@@ -6,7 +6,7 @@
  *		E-mail: daniel.wielanek@gmail.com
  *		Warsaw University of Technology, Faculty of Physics
  */
-#include "Animation.h"
+#include "animation.h"
 #include "virus.h"
 using namespace std;
 

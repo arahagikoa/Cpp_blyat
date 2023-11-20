@@ -1,11 +1,3 @@
-/*
- * Animation.h
- *
- *  Created on: 16 gru 2022
- *      Author: Daniel Wielanek
- *		E-mail: daniel.wielanek@gmail.com
- *		Warsaw University of Technology, Faculty of Physics
- */
 #ifndef KOLO_ANIMATION_H_
 #define KOLO_ANIMATION_H_
 
