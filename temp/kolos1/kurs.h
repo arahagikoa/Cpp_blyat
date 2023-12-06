@@ -6,10 +6,10 @@
 
     class kurs {
     private:
-    std::string kurs::convert(std::string const str) const {
-            std::string year  = str.substr(0, 4);
-            std::string day   = str.substr(4, 2);
-            std::string month = str.substr(6, 2);
+    string convert(string const str) const {
+            string year  = str.substr(0, 4);
+            string day   = str.substr(4, 2);
+            string month = str.substr(6, 2);
             return day+"-"+month+"-"+year;
     }
     public:
