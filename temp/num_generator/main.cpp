@@ -11,4 +11,5 @@ int main(){
     gen.PrintGenerator();
 
     return 0;
+    
 }

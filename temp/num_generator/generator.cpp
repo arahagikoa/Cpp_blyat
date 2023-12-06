@@ -9,7 +9,6 @@ Generator::Generator(long A, long B, long C, long n, long s){
     w2 = B;
     w3 = C;
     N = n;
-    S = s;
     long x_i = s;
     for(int i = 0; i < n; i++){
         x_i=(w1*x_i+w2)%3;
